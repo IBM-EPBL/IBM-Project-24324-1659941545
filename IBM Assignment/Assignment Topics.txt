@@ -1,0 +1,3 @@
+Assignment 1 - Portfolio.
+Assignment 2 - Flask Application with home, about, signin, signup pages and bootstrap styling.
+Assignment 3 - Flask Blog Site connected with database.
