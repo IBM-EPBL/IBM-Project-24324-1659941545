@@ -1,4 +1,0 @@
-Assignment 1 - Portfolio.
-Assignment 2 - Flask Application with home, about, signin, signup pages and bootstrap styling.
-Assignment 3 - Flask Blog Site connected with database.
-Assignment 4 - IBM cloud object - fetch 5 images and print in the webpage. IBM Watson - Create a health care chatbot.
