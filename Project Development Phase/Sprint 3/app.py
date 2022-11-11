@@ -74,15 +74,6 @@ def upload():
 
 mail = Mail(app) # instantiate the mail class
 
-# configuration of mail
-'''
-app.config['MAIL_SERVER']='smtp.gmail.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'suryaveducation@gmail.com'
-app.config['MAIL_PASSWORD'] = 'wulfxwjegogykktb'
-app.config['MAIL_USE_TLS'] = False
-app.config['MAIL_USE_SSL'] = True
-'''
 app.config['MAIL_SERVER']='smtp.sendgrid.net'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'apikey'
