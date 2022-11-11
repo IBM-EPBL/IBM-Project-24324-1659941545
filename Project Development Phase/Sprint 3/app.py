@@ -72,7 +72,6 @@ def upload():
        return render_template('upload.html')
 
 
-app.secret_key = 'your secret key'
 mail = Mail(app) # instantiate the mail class
 
 # configuration of mail
@@ -87,7 +86,6 @@ app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_SERVER']='smtp.sendgrid.net'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'apikey'
-app.config['MAIL_PASSWORD'] = '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'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
