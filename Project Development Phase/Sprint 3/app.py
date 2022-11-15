@@ -76,7 +76,7 @@ mail = Mail(app) # instantiate the mail class
 
 app.config['MAIL_SERVER']='smtp.sendgrid.net'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'apikey'
+app.config['MAIL_USERNAME'] = 
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
